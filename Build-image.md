@@ -14,6 +14,9 @@ Esse comando compila o TypeScript (`tsc`) e exporta o plugin como dinâmico para
 
 ## 🐳 Empacotando como Imagem OCI e publicando no Docker Hub
 
+**OBS: Trocar o ${DOCKER_USERNAME} pelo seu usuário docker ou org**
+**antes de fazer o processo, logar no docker com o podman**
+
 ### 2. Empacotar a imagem OCI com base na versão do `package.json`
 
 ```bash
