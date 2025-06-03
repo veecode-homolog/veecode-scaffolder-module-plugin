@@ -5,5 +5,4 @@
  * @packageDocumentation
  */
 
-export * from './actions'
-export { scaffolderModuleVeecodeExtensions as default}  from './module'
+export * from "./module";
